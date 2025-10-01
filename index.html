@@ -6,8 +6,63 @@
     <title>Tea-House-Tailwind-Website</title>
     <!-- Tailwind Css ---------------------Link -->
       <script src="https://cdn.tailwindcss.com"></script>
+
+      <!-- Font CDN Link------------ -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1 class="text-3xl">hello world</h1>
+    <header class="m-10 p-10">
+        <section class="flex">
+            <div class="space-y-3">
+                <h2 class="text-5xl font-bold ">It's good<br> tea time at The<br> Tea House</h2>
+                <p class="text-lg font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="bg-orange-500 py-3 px-3 rounded-md text-white">Explore More<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="relative">
+                <img src="images/banner.png" alt="">
+                <div class="flex  items-center absolute bg-white shadow-lg rounded-lg -mt-24 ml-28 py-3 px-3">
+                    <i class="fa-solid fa-star text-2xl text-orange-500"></i>
+                    <div class="">
+                        <h5 class="lg:text-2xl font-bold">5.00</h5>
+                        <p class="text-gray-500">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="">
+            <div class="">
+                <h2 class="lg:text-4xl font-bold lg:text-center ">Our Featured Products</h2>
+                <p class="text-sm font-medium text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <div class="flex gap-10 mt-10">
+                <div class="bg-gray-200 rounded-lg py-4 px-4 ">
+                    <img src="images/tea-1.png" alt="" class="ml-12">
+                    <h3 class="font-bold lg:text-3xl text-center mt-4">Milk Tea</h3>
+                    <p class="lg:text-center">Creamer could be replaced by fresh milk</p>
+                </div>
+
+                <!-- 2num----------- -->
+                  <div class="bg-gray-200 rounded-lg py-4 px-4 ">
+                    <img src="images/tea-2.png" alt="" class="ml-12">
+                    <h3 class="font-bold lg:text-3xl text-center mt-4">Black Tea</h3>
+                    <p class="lg:text-center">Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- 3num ---------- -->
+                  <div class="bg-gray-200 rounded-lg py-4 px-4 ">
+                    <img src="images/tea-3.png" alt="" class="ml-12">
+                    <h3 class="font-bold lg:text-3xl text-center mt-4">Lemon Tea</h3>
+                    <p class="lg:text-center">Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- 4 num------------- -->
+                  <div class="bg-gray-200 rounded-lg py-4 px-4 ">
+                    <img src="images/tea-4.png" alt="" class="ml-12">
+                    <h3 class="font-bold lg:text-3xl text-center mt-4">Green Tea</h3>
+                    <p class="lg:text-center">Creamer could be replaced by fresh milk</p>
+                </div>
+            </div>
+        </section>
+    </header>   
 </body>
 </html>
